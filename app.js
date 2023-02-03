@@ -12,7 +12,7 @@ const async = require("async");
 
 const app = express();
 
-/******************* Connecting to the Database ******************************* */
+/******************* Connecting to the Database******************************* */
 
 const DB = 'mongodb+srv://swraj28:Swraj%4028@atlascluster.yzdzpto.mongodb.net/lms?retryWrites=true&w=majority'
 
