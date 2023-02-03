@@ -25,7 +25,7 @@ mongoose.connect(DB,{
   console.log('connection successful');
 }).catch((err)=>console.log('no connection'));
 
-/********************************************************************************************* */
+/******************************Database Connection Successful *************************************************************** */
 
 app.engine('hbs', expHbs({defaultLayout: 'layout', extname: '.hbs'}))
 app.set('view engine', 'hbs')
